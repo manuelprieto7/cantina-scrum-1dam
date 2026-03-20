@@ -12,7 +12,7 @@
       "nombre": "Café solo",
       "precio": 0.9,
       "categoria": "bebidas",
-      "emoji": "🍵"
+      "emoji": "☕"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "nombre": "Bocata de tortilla",
       "precio": 2.8,
       "categoria": "bocadillos",
-      "emoji": "🥚"
+      "emoji": "🍳"
     },
     {
       "id": 6,
@@ -47,7 +47,7 @@
       "nombre": "Tostada con tomate",
       "precio": 1.8,
       "categoria": "tostadas",
-      "emoji": "🍞"
+      "emoji": "🍅"
     },
     {
       "id": 8,

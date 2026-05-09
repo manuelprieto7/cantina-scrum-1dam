@@ -336,3 +336,77 @@ main {
     background-color: rgba(239, 68, 68, 0.15);
     border-color: #ef4444;
 }
+
+/* ---- INPUT NOMBRE Y PAGO ---- */
+#input-nombre, #select-pago {
+    width: 100%;
+    background-color: var(--gris-medio);
+    border: 1px solid var(--gris-borde);
+    border-radius: var(--radio-sm);
+    color: var(--blanco);
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+#input-nombre:focus, #select-pago:focus {
+    border-color: var(--naranja);
+}
+
+#select-pago option {
+    background-color: var(--gris-medio);
+}
+
+/* ---- MODAL CONFIRMACIÓN ---- */
+#modal-confirmacion {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+#modal-contenido {
+    background-color: var(--gris-oscuro);
+    border: 1px solid var(--naranja);
+    border-radius: var(--radio);
+    padding: 32px;
+    text-align: center;
+    max-width: 360px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#modal-contenido h2 {
+    font-size: 1.4rem;
+    color: var(--naranja);
+    margin-bottom: 6px;
+}
+
+#modal-contenido p {
+    color: var(--blanco-suave);
+    font-size: 0.95rem;
+}
+
+#btn-cerrar-modal {
+    margin-top: 16px;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    border: none;
+    border-radius: var(--radio-sm);
+    padding: 10px 24px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+#btn-cerrar-modal:hover {
+    opacity: 0.85;
+}

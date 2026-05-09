@@ -61,8 +61,26 @@
             <h2>🧾 Resumen de tu pedido</h2>
             <p id="franja-elegida"></p>
             <ul id="lista-resumen"></ul>
+            <input type="text" id="input-nombre" placeholder="Tu nombre" />
+            <select id="select-pago">
+                <option value="">💳 Forma de pago</option>
+                <option value="efectivo">💵 Efectivo</option>
+                <option value="tarjeta">💳 Tarjeta</option>
+            </select>
             <p class="total-resumen">Total: <span id="total-resumen">0.00 €</span></p>
             <button id="btn-confirmar">✅ Confirmar pedido</button>
+        </div>
+
+        <!-- Modal de confirmación -->
+        <div id="modal-confirmacion" style="display:none;">
+            <div id="modal-contenido">
+                <h2>✅ ¡Pedido confirmado!</h2>
+                <p id="modal-nombre"></p>
+                <p id="modal-franja"></p>
+                <p id="modal-pago"></p>
+                <p id="modal-total"></p>
+                <button id="btn-cerrar-modal">Hacer otro pedido</button>
+            </div>
         </div>
 
     </main>

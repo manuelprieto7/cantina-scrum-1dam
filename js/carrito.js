@@ -49,3 +49,15 @@ function actualizarTotal() {
     elementoTotal.textContent = total.toFixed(2) + " €";
   }
 }
+
+// ---- FRANJA HORARIA ----
+var franjaSeleccionada = null;
+
+function guardarFranja(franja) {
+  franjaSeleccionada = franja;
+
+  var infoFranja = document.getElementById("franja-elegida");
+  if (infoFranja) {
+    infoFranja.textContent = "🕐 " + franja.nombre + " · " + franja.hora;
+  }
+}

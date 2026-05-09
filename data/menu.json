@@ -12,7 +12,7 @@
       "nombre": "Café solo",
       "precio": 0.9,
       "categoria": "bebidas",
-      "emoji": "☕"
+      "emoji": "🫖"
     },
     {
       "id": 3,
@@ -57,5 +57,9 @@
       "emoji": "🧈"
     }
   ],
-  "franjas": ["08:30 - 09:00", "10:30 - 11:00", "13:00 - 13:30"]
+  "franjas": [
+    { "id": "f1", "nombre": "Recreo 1", "hora": "08:30 - 09:00" },
+    { "id": "f2", "nombre": "Recreo 2", "hora": "10:30 - 11:00" },
+    { "id": "f3", "nombre": "Recreo 3", "hora": "13:00 - 13:30" }
+  ]
 }
